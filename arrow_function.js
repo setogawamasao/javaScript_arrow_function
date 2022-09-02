@@ -2,14 +2,16 @@
 
 // 通常の関数
 function normalFunc(a, b) {
-  return a + b;
+  let returnValue = a + b;
+  return returnValue;
 }
 console.log("normalFunc", normalFunc(1, 2));
 
 // アロー関数基本形
 // const 関数名 =　(引数1,引数2・・・) => { retuen 処理 }
 const arrowFunc = (a, b) => {
-  return a + b;
+  let returnValue = a + b;
+  return returnValue;
 };
 console.log("arrowFunc", arrowFunc(1, 2));
 
